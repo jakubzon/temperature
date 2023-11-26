@@ -1,0 +1,14 @@
+{ "type":"DATA", "thermometer" : { "name" : "thermo532", "point" : "INSIDE" }, "value" : { "temperature" : 20.00, "duration" : 1.35 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "MATTER" }, "value" : { "temperature" : 10.50, "duration" : 4.55 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "MATTER" }, "value" : { "temperature" : 5.50, "duration" : 3.75 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "OUTSIDE" }, "value" : { "temperature" : 3.20, "duration" : 7.43 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "MATTER" }, "value" : { "temperature" : 24.00, "duration" : 3.79 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "MATTER" }, "value" : { "temperature" : 31.40, "duration" : 4.53 } }
+{ "type" : "STOP", "thermometer" : { "name" : "thermo532", "point" : "MATTER" } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "INSIDE" }, "value" : { "temperature" : 42.75, "duration" : 1.77 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo432", "point" : "MATTER" }, "value" : { "temperature" : 15.10, "duration" : 2.85 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "MATTER" }, "value" : { "temperature" : 100.00, "duration" : 4.54 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "INSIDE" }, "value" : { "temperature" : 17.30, "duration" : 1.76 } }
+{ "type" : "STOP", "thermometer" : { "name" : "thermo54", "point" : "OUTSIDE" } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "INSIDE" }, "value" : { "temperature" : 2.50, "duration" : 1.65 } }
+{ "type" : "STOP", "thermometer" : { "name" : "thermo7537", "point" : "OUTSIDE" } }
