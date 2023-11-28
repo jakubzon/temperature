@@ -17,13 +17,14 @@ public class DataReader {
 
   public DataReader() {
     this.objectMapper = new ObjectMapper();
+    //to keep current logic even if there will be some additional data in requests.
     objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
   }
 
   public List<Message> readMessagesFromFile() {
     var messagesList = new ArrayList<Message>();
     var messagesIs = getClass().getClassLoader().getResourceAsStream("pl/jz/messages.txt");
-    if(messagesIs == null) {
+    if (messagesIs == null) {
       throw new RuntimeException("Problem with reading messages file");
     }
     try (InputStreamReader streamReader =
@@ -32,7 +33,7 @@ public class DataReader {
 
       String line;
       while ((line = reader.readLine()) != null) {
-        if(line.contains("\"value\"")) {
+        if (line.contains("\"value\"")) {
           messagesList.add(objectMapper.readValue(line, ThermometerMessage.class));
         } else {
           messagesList.add(objectMapper.readValue(line, Message.class));
@@ -40,7 +41,7 @@ public class DataReader {
       }
 
     } catch (IOException e) {
-      System.out.println("Something is no yes");
+      System.out.println("An error occured during reading file. Exception essage is:\n" + e.getMessage());
     }
 
 

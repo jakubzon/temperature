@@ -1,4 +1,4 @@
-{ "type":"DATA", "thermometer" : { "name" : "thermo532", "point" : "INSIDE" }, "value" : { "temperature" : 20.00, "duration" : 1.35 } }
+{ "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "INSIDE" }, "value" : { "temperature" : 20.00, "duration" : 1.35 } }
 { "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "MATTER" }, "value" : { "temperature" : 10.50, "duration" : 4.55 } }
 { "type" : "DATA", "thermometer" : { "name" : "thermo7537", "point" : "MATTER" }, "value" : { "temperature" : 5.50, "duration" : 3.75 } }
 { "type" : "DATA", "thermometer" : { "name" : "thermo532", "point" : "OUTSIDE" }, "value" : { "temperature" : 3.20, "duration" : 7.43 } }
